@@ -1,11 +1,11 @@
 .DS_Store
 *.zip
-# Ignore source originals with spaces; site uses SEO-friendly kebab-case copies
+# Ignore source originals; site uses optimized WebP copies
 assets/asset/*
-!assets/asset/*-printing.png
-!assets/asset/graphic-designing.png
-!assets/asset/color-printing.png
-!assets/asset/all-types-printing-works.png
+!assets/asset/*-printing.webp
+!assets/asset/graphic-designing.webp
+!assets/asset/color-printing.webp
+!assets/asset/all-types-printing-works.webp
 assets/Untitled design*/
 assets/portfolio/
 assets/services/

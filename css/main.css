@@ -379,7 +379,7 @@ p {
   inset: 0;
   background:
     linear-gradient(135deg, rgba(17, 17, 17, 0.92) 0%, rgba(17, 17, 17, 0.75) 50%, rgba(17, 17, 17, 0.88) 100%),
-    url('../assets/asset/color-printing.png') center/cover no-repeat;
+    url('../assets/asset/color-printing.webp') center/cover no-repeat;
 }
 
 .hero-bg-pattern {
@@ -532,7 +532,7 @@ p {
   inset: 0;
   background:
     linear-gradient(135deg, rgba(17, 17, 17, 0.95), rgba(17, 17, 17, 0.85)),
-    url('../assets/asset/visiting-card-printing.png') center/cover;
+    url('../assets/asset/visiting-card-printing.webp') center/cover;
 }
 
 .page-hero-content {
