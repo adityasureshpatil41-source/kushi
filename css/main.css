@@ -700,17 +700,19 @@ p {
 
 .service-card-v2-media {
   position: relative;
-  aspect-ratio: 16/10;
+  aspect-ratio: 16 / 10;
   overflow: hidden;
-  background: linear-gradient(145deg, #f8f8f8 0%, #ececec 100%);
+  background: #1a1a1a;
 }
 
 .service-card-v2-media img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  max-width: none;
+  object-fit: cover;
   object-position: center;
-  padding: 12px;
   transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -1147,11 +1149,13 @@ p {
 }
 
 .portfolio-item img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  max-width: none;
+  object-fit: cover;
   object-position: center;
-  padding: 10px;
   transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -1996,18 +2000,21 @@ p {
 }
 
 .service-detail-image {
-  aspect-ratio: 1;
+  position: relative;
+  aspect-ratio: 16 / 10;
   border-radius: var(--radius-sm);
   overflow: hidden;
-  background: linear-gradient(145deg, #f8f8f8, #ececec);
+  background: #1a1a1a;
 }
 
 .service-detail-image img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  max-width: none;
+  object-fit: cover;
   object-position: center;
-  padding: 12px;
 }
 
 .service-detail-content h3 {
@@ -2134,8 +2141,8 @@ p {
   }
 
   .service-detail-image {
-    max-height: 200px;
-    aspect-ratio: 16/9;
+    max-height: none;
+    aspect-ratio: 16 / 10;
   }
 }
 
