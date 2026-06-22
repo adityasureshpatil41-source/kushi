@@ -1,0 +1,6 @@
+.DS_Store
+*.zip
+assets/asset/
+assets/portfolio/
+assets/services/
+.cursor/

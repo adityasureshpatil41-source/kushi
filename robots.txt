@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# AI / Answer Engine crawlers (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://khushienterprises.in/sitemap.xml
+
+# LLM-readable business facts (AEO)
+# https://khushienterprises.in/llms.txt
